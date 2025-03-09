@@ -13,3 +13,12 @@ def convertKelvinToCelsius(kelvin):
 def convertKelvinToFahrenheit(kelvin):
     """Convert Kelvin to Fahrenheit."""
     return (kelvin - 273.15) * 9/5 + 32
+
+def convertCelsiusToKelvin(celsius):
+    """Convert Celsius to Kelvin."""
+    return celsius + 273.15
+
+def convertCelsiusToFahrenheit(celsius):
+    """Convert Celsius to Fahrenheit."""
+    return (celsius * 9/5) + 32
+
